@@ -1,0 +1,15 @@
+<script>
+	import LabelInput from '$lib/components/LabelInput.svelte';
+</script>
+
+<form class="card max-w-xl card-compact items-center space-y-4">
+	<h1 class="card-title md:text-3xl">Login</h1>
+	<div class="body space-y-4">
+		<LabelInput placeholder="Enter Student/Staff ID" name="student/staff ID" />
+		<LabelInput type="password" showButton placeholder="Enter Student/Staff ID" name="password" />
+	</div>
+
+	<div class="card-actions w-full">
+		<button type="button" class="btn btn-sm btn-primary btn-block">Login</button>
+	</div>
+</form>
