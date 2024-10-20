@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      carbon-icons-svelte:
+        specifier: ^12.12.0
+        version: 12.12.0
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
@@ -436,6 +440,9 @@ packages:
 
   caniuse-lite@1.0.30001669:
     resolution: {integrity: sha512-DlWzFDJqstqtIVx1zeSpIMLjunf5SmwOw0N2Ck/QSQdS8PLS4+9HrLaYei4w8BIAL7IB/UEDu889d8vhCTPA0w==}
+
+  carbon-icons-svelte@12.12.0:
+    resolution: {integrity: sha512-fJIys9CKr1tu/oWp/zVWyL6yZURuFWehyWJik1Y/GIN10KRI2iwXQOWfUemLiUNEhEjQNXpb54Qw6N1WX+C26g==}
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -1357,6 +1364,8 @@ snapshots:
   camelcase-css@2.0.1: {}
 
   caniuse-lite@1.0.30001669: {}
+
+  carbon-icons-svelte@12.12.0: {}
 
   chokidar@3.6.0:
     dependencies:

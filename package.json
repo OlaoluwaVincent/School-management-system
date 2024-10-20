@@ -50,5 +50,8 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"carbon-icons-svelte": "^12.12.0"
+	}
 }

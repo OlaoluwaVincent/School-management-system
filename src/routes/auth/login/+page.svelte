@@ -1,5 +1,6 @@
 <script>
-	import LabelInput from '$lib/components/LabelInput.svelte';
+	import FormButton from '$lib/components/formButton.svelte';
+	import LabelInput from '$lib/components/labelInput.svelte';
 </script>
 
 <form class="card max-w-xl card-compact items-center space-y-4">
@@ -10,6 +11,7 @@
 	</div>
 
 	<div class="card-actions w-full">
-		<button type="button" class="btn btn-sm btn-primary btn-block">Login</button>
+		<FormButton text="Login" />
 	</div>
+	<!-- <p>Don't have an account</p> -->
 </form>
